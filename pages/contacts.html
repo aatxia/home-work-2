@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: rgb(11, 36, 59);"><i>Contacts Page</i></h1>
+
+    <ul style="  display: flex; justify-content: center; gap: 10px;">
+    <li><a href="../index.html" style="padding: 5px 10px;">Main</a><br></li>
+    <li><a href="../anchor.html"  style="padding: 5px 10px;">Anchor</a><br></li>
+    <li><a href="pages/about.html"  style="padding: 5px 10px;">About</a><br></li>
+    <li><a href="pages/articles.html"  style="padding: 5px 10px;">Articles</a><br></li>
+    <li><a href="pages/contacts.html"  style="padding: 5px 10px;">Contacts</a><br></li>
+    <li><a href="pages/gallery.html" style="padding: 5px 10px;">Gallery</a><br></li>
+</ul>
+<p>We would love to hear from you! Please use the form below to get in touch with us. Whether you have questions, feedback, or suggestions, we are here to listen.</p>
+<form action="#" method="post">
+<fieldset>
+            <legend>Contact information</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" min="1" max="120"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="none" name="gender" value="none">
+            <label for="none">None</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobby</legend>
+            <input type="checkbox" id="music" name="hobby" value="music">
+            <label for="music">Music</label><br>
+
+            <input type="checkbox" id="sport" name="hobby" value="sport">
+            <label for="sport">Sport</label><br>
+
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">Reading</label><br>
+        </fieldset>
+
+        <button type="submit">Send</button>
+        <button type="reset">Clean</button><br>
+        <button type="button" onclick="alert('Hiii :/')">Only for subscribers</button>
+</form>
+
+</body>
+</html>
